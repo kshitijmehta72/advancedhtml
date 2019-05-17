@@ -42,6 +42,13 @@
     <section id="contact-form">
       <h2>Place Order</h2>
       <form action="place-order.php" method="get">
+        <h4>Delivery</h4>
+        <div>
+          Input name must be same for radio buttons.
+        </div>
+        <input name="delivery" type="radio" value="delivery"> Delivery <br>
+        <input name="delivery" type="radio" value="pickup"> pickup <br>
+        <h4>Address</h4>
         <input name="Address 1" placeholder="Add line 1" class="lg-input" >
         <br>
         <input name="Address 2" placeholder="Add line 2" class="lg-input">
@@ -50,13 +57,13 @@
         <br>
         <input name="state" placeholder="state" class="sm-input">
       <br>
-      <input name="cheese" type="checkbox">Cheese
+      <input name="cheese" type="checkbox" value="cheese">Cheese
       <br>
-      <input name="Paneer" type="checkbox">Panner
+      <input name="Paneer" type="checkbox" value="Paneer">Panner
       <br>
-      <input name="Onion" type="checkbox">Onion
+      <input name="Onion" type="checkbox" value="Onion">Onion
       <br>
-      <input name="Capsicum" type="checkbox">Capsicum
+      <input name="Capsicum" type="checkbox" value="Capsicum">Capsicum
       </form>
 
     </section>
